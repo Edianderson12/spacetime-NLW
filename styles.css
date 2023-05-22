@@ -112,7 +112,6 @@ aside {
   background-position: top right;
   background-repeat: no-repeat;
   background-size: auto 100%;
-
 }
 
 aside * {
@@ -125,6 +124,10 @@ aside * {
   align-items: center;
   justify-content: center;
   gap: 15px;
+}
+
+#redes:hover img {
+  transform: scale(1.1);
 }
 
 aside img:nth-child(2) {
@@ -147,13 +150,12 @@ aside p {
   text-align: center;
 }
 
-
 aside span {
   font-size: 0.75rem;
   color: #9e9ea0;
 }
 
-@media (max-width: 768px){
+@media (max-width: 768px) {
   :root {
     font-size: 14px;
   }
@@ -162,8 +164,8 @@ aside span {
     grid-template-columns: 1fr;
     grid-template-rows: 0.2fr 0.8fr;
     grid-template-areas:
-    "profile"
-    "timeline";
+      "profile"
+      "timeline";
   }
 
   aside {
