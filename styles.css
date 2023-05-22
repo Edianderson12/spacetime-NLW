@@ -126,7 +126,7 @@ aside * {
   gap: 15px;
 }
 
-#redes:hover img {
+.tran:hover img {
   transform: scale(1.1);
 }
 
